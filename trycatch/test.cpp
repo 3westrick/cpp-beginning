@@ -28,6 +28,7 @@ int divide(int a, int b){
     }catch (...){
         std::cerr << "Unknown Exception Caught!" << std::endl;
     }
+    return 0;
 }
 
 int main()
