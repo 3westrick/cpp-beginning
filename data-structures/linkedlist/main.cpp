@@ -100,7 +100,7 @@ public:
         return os;
     }
 
-    [[nodiscard]] int size() const{
+    [[nodiscard]] int size() const {
         /// Return the number of elements
         return length;
     }
@@ -113,8 +113,8 @@ public:
             delete temp;
         }
     }
-};
 
+};
 
 int main(){
     SinglyLinkedList sll {};
@@ -128,5 +128,6 @@ int main(){
     std::cout << sll.search(3) << std::endl;
     std::cout << sll.search(4) << std::endl;
     std::cout << sll[0] << std::endl;
+
     return 0;
 }
